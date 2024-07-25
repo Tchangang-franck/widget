@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -122,8 +120,8 @@ Widget searchSection = Container(
 //boxSection
 @override
 Widget boxSection = Container(
-  padding: const EdgeInsets.all(30),
-  margin: const EdgeInsets.all(20),
+  padding: const EdgeInsets.all(10),
+  margin: const EdgeInsets.all(10),
   width: double.infinity,
   height: 200,
   decoration: BoxDecoration(
@@ -169,7 +167,7 @@ Widget boxSection = Container(
 //iconSection
 @override
 Widget iconSection = Container(
-  padding: const EdgeInsets.all(20),
+  padding: const EdgeInsets.all(5),
   margin: const EdgeInsets.all(5),
   child: Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -177,7 +175,7 @@ Widget iconSection = Container(
       Column(
         children: [
           Container(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(5),
             color: Colors.orange,
             child: const Icon(
               Icons.newspaper_outlined,
@@ -194,7 +192,7 @@ Widget iconSection = Container(
       Column(
         children: [
           Container(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(5),
             color: Colors.blue,
             child: const Icon(
               Icons.accessible_forward_sharp,
@@ -211,7 +209,7 @@ Widget iconSection = Container(
       Column(
         children: [
           Container(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(5),
             color: Colors.pink,
             child: const Icon(
               Icons.add_a_photo_rounded,
@@ -228,7 +226,7 @@ Widget iconSection = Container(
       Column(
         children: [
           Container(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(5),
             color: Colors.blue,
             child: const Icon(
               Icons.add_card,
@@ -245,7 +243,7 @@ Widget iconSection = Container(
       Column(
         children: [
           Container(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(5),
             color: Colors.purple,
             child: const Icon(
               Icons.add_ic_call_sharp,
@@ -312,15 +310,15 @@ Widget bottomSection = Container(
       Column(
         children: [
           Container(
-            width: 120,
-            height: 110,
+            width: 60,
+            height: 80,
             padding: const EdgeInsets.all(10),
             margin: const EdgeInsets.all(5),
             color: Colors.purple,
             child: const Icon(
               Icons.star,
               color: Colors.white,
-              size: 60,
+              size: 30,
             ),
           ),
           const Text(
@@ -337,14 +335,14 @@ Widget bottomSection = Container(
               "Central Quing Elite Class",
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
               ),
             ),
           ),
           FittedBox(
             child: Text(
               "Little first choice regard  improvement paid ability",
-              style: TextStyle(color: Colors.black, fontSize: 15),
+              style: TextStyle(color: Colors.black, fontSize: 10),
             ),
           ),
           SizedBox(
@@ -360,7 +358,7 @@ Widget bottomSection = Container(
                     fontWeight: FontWeight.bold,
                     fontSize: 20),
               ),
-              SizedBox(width: 140),
+              SizedBox(width: 50),
               ElevatedButton(
                 onPressed: null,
                 style: ButtonStyle(
@@ -393,15 +391,15 @@ Widget bottomOrangeSection = Container(
       Column(
         children: [
           Container(
-            width: 120,
-            height: 110,
+            width: 60,
+            height: 80,
             padding: const EdgeInsets.all(10),
             margin: const EdgeInsets.all(5),
             color: Colors.orange,
             child: const Icon(
               Icons.star,
               color: Colors.white,
-              size: 60,
+              size: 30,
             ),
           ),
           const Text(
@@ -418,14 +416,14 @@ Widget bottomOrangeSection = Container(
               "Central Quing Elite Class",
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
               ),
             ),
           ),
           FittedBox(
             child: Text(
               "Little first choice regard  improvement paid ability",
-              style: TextStyle(color: Colors.black, fontSize: 15),
+              style: TextStyle(color: Colors.black, fontSize: 10),
             ),
           ),
           SizedBox(
@@ -441,7 +439,7 @@ Widget bottomOrangeSection = Container(
                     fontWeight: FontWeight.bold,
                     fontSize: 20),
               ),
-              SizedBox(width: 140),
+              SizedBox(width: 50),
               ElevatedButton(
                 onPressed: null,
                 style: ButtonStyle(
@@ -474,15 +472,15 @@ Widget bottomPinkSection = Container(
       Column(
         children: [
           Container(
-            width: 120,
-            height: 110,
+            width: 60,
+            height: 80,
             padding: const EdgeInsets.all(10),
             margin: const EdgeInsets.all(5),
             color: Colors.red,
             child: const Icon(
               Icons.star,
               color: Colors.white,
-              size: 60,
+              size: 30,
             ),
           ),
           const Text(
@@ -499,14 +497,14 @@ Widget bottomPinkSection = Container(
               "Central Quing Elite Class",
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
               ),
             ),
           ),
           FittedBox(
             child: Text(
               "Little first choice regard  improvement paid ability",
-              style: TextStyle(color: Colors.black, fontSize: 15),
+              style: TextStyle(color: Colors.black, fontSize: 10),
             ),
           ),
           SizedBox(
@@ -522,7 +520,7 @@ Widget bottomPinkSection = Container(
                     fontWeight: FontWeight.bold,
                     fontSize: 20),
               ),
-              SizedBox(width: 140),
+              SizedBox(width: 50),
               ElevatedButton(
                 onPressed: null,
                 style: ButtonStyle(
